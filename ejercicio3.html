@@ -19,12 +19,10 @@
 		function myFunction() {
 			var name = document.getElementById("name").value;
 			var email = document.getElementById("email").value;
-			var mostrarNombre = document.getElementById("mostrarNombre");
-			var mostrarMail = document.getElementById("mostrarMail");
 
-			document.getElementById("name").innerHTML = mostrarNombre;
+			document.getElementById("mostrarNombre").innerHTML = name;
 
-			document.getElementById("email").innerHTML = mostrarMail;
+			document.getElementById("mostrarMail").innerHTML = email;
 		}
 		myFunction();
 	</script>
