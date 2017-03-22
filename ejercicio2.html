@@ -18,11 +18,11 @@
 		function mensajes(){
 			var busqueda = document.getElementsByTagName("mensajes");
 			if (busqueda.length == 1){
-				prompt("Es muy poco");
+				alert("Es muy poco");
 			} else if (2 > busqueda.length <= 4){
-				prompt("No está mal");
+				alert("No está mal");
 			} else if(busqueda.length > 4){
-				prompt("Son muchos!");
+				alert("Son muchos!");
 			}
 		}
 		mensajes();
